@@ -13,23 +13,3 @@ $(document).on('click', '.navbar-toggler', function (e) {
         element.classList.add("show");
     }
 });
-//
-// $(window).resize(function() {
-//     if ($(window).width() < 767.99) {
-//         $("aside.navbar").hide();
-//     }
-//     else {
-//         $("aside.navbar").show();
-//     }
-// });
-
-// $(document).on('keypress', '#LoginVM_Password', function (e) {
-//     if ( e.keyCode == 13 ) {
-//         $("#LoginVM_LoginButton").click();
-//     }
-// });
-// $(document).on('keypress', '#LoginVM_Login', function (e) {
-//     if ( e.keyCode == 13 ) {
-//         $("#LoginVM_LoginButton").click();
-//     }
-// });
