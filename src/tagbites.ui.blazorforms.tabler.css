@@ -206,9 +206,16 @@ aside.navbar {
 
 .metismenu {
     padding-left: 0px;
+    list-style:none;
 }
+.card-body > .metismenu{
+    margin-bottom:-12px;
 
-.side-nav-link {
+}
+.card-body > .metismenu a span{
+    color: #444;
+}
+.navbar .side-nav-link {
     color: rgba(255, 255, 255, .72);
     /*padding-left: 10px*/
 }
