@@ -147,7 +147,7 @@ aside.navbar {
         position: absolute;
         top: 37px;
         left: 0px;
-        z-index: 1001;
+        z-index: 2000;
         width: 50%;
     }
 
