@@ -128,6 +128,10 @@ aside.navbar {
     height: 100vh;
     padding-right: 0px;
     padding-top: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .navbar .navbar-brand-image {
@@ -656,6 +660,10 @@ table {
     margin-top: 12px;
     table-layout: fixed;
     word-break: break-word;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @media (min-width: 48rem) {
@@ -1045,6 +1053,10 @@ aside + .page > .container > .row {
     border-bottom: 1px solid #dedede;
     background: #FAFAFA;
     color: #202020;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .tbs-ribbon .tab-content {
@@ -1668,6 +1680,9 @@ table table tbody{
 
 /* scheduler */
 .tbs-scheduler {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     height:100%;
 }
