@@ -1893,3 +1893,27 @@ table table tbody{
 .col-lg-12 > .card-tabs > .card-body{
     padding:12px 0px;
 }
+@media (max-width: 767.98px) {
+    .tbs-table-container:not(.table-multirow) > table > tbody > tr:nth-child(even),
+    .tbs-table-container:not(.table-multirow) > table > tbody > tr:nth-child(even) table{
+        background:rgb(247,247,247);
+    }
+    .tbs-table-container:not(.table-multirow) > table > tbody > tr:not([class]) + tr.tbs-table-item-tr-top,
+    .tbs-table-container:not(.table-multirow) > table > tbody > tr:not([class]) + tr.tbs-table-item-tr-top table
+    {
+        background:white!important;
+    }
+    .tbs-table-container:not(.table-multirow) > table > tbody >tr:not([class]) + tr.tbs-table-item-tr-top + tr.tbs-table-item-tr-top:nth-child(even),
+    .tbs-table-container:not(.table-multirow) > table > tbody >tr:not([class]) + tr.tbs-table-item-tr-top + tr.tbs-table-item-tr-top:nth-child(even) table
+    {
+        background:rgb(245,245,245)!important;
+    }
+}
+.form-control:disabled, .form-control[readonly], .custom-select:disabled{
+    background:rgb(250, 251, 252);
+    color:rgb(30, 41, 59);
+}
+
+.form-control:disabled{
+    color:rgb(98, 105, 118);
+}
