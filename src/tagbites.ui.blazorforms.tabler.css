@@ -1236,15 +1236,6 @@ aside + .page > .container > .row {
     }
 }
 
-@media (min-width: 48rem) {
-    .page .tbs-ribbon > .tab-content {
-        max-width: calc(47.5rem - 24px);
-        margin-right: auto;
-        margin-left: auto;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
 
 @media (min-width: 64rem) {
     .page .tbs-ribbon > .tab-content {
