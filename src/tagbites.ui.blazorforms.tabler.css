@@ -1767,11 +1767,11 @@ table table tbody{
 }
 .tbs-scheduler-allday-timeline td:first-child,
 .tbs-scheduler-header-days-timeline td:first-child {
-    width: 50px;
+    width: 55px;
 }
 
 .tbs-scheduler-content-hours td:first-child {
-    width: 50px;
+    width: 55px;
     text-align: center;
     vertical-align: top;
 }
@@ -1791,6 +1791,9 @@ table table tbody{
     vertical-align: top;
     padding:5px;
     line-height: 1;
+}
+.tbs-scheduler-content-days tr{
+    height:calc(100vh / 8);
 }
 
 .tbs-scheduler-allday,
