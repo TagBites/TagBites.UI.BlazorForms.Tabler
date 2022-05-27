@@ -503,6 +503,57 @@ aside + .page .container .card-tabs > .card-body {
     margin: 0px;
     margin-top:-12px!important;
     max-width: 100%;
+    margin-bottom: 0px;
+    overflow:hidden;
+    height: 100%;
+}
+.card-tabs-only .nav-tabs {
+    position: relative;
+    z-index: 1000;
+    border-bottom: 0;
+}
+.card-tabs-only .nav-tabs .nav-link {
+    background: rgba(53, 64, 82, 0.024);
+    border: 1px solid rgba(110, 117, 130, 0.2);
+    border-bottom: 0;
+}
+.card-tabs-only .nav-tabs .nav-link.active, .card-tabs-only .nav-tabs .nav-link:active, .card-tabs-only .nav-tabs .nav-link:hover {
+    border-color: rgba(110, 117, 130, 0.2);
+}
+.card-tabs-only .nav-tabs .nav-link.active {
+    background: #ffffff;
+}
+.card-tabs-only .nav-tabs .nav-item:not(:first-child) .nav-link {
+    border-top-left-radius: 0;
+}
+.card-tabs-only .nav-tabs .nav-item:not(:last-child) .nav-link {
+    border-top-right-radius: 0;
+}
+.card-tabs-only .nav-tabs .nav-item + .nav-item {
+    margin-left: -1px;
+}
+.card-tabs-only .nav-tabs-bottom {
+    margin-bottom: 0;
+}
+.card-tabs-only .nav-tabs-bottom .nav-item {
+    margin-top: -1px;
+    margin-bottom: 0;
+}
+.card-tabs-only .nav-tabs-bottom .nav-item .nav-link {
+    border-top-width: 0;
+    border-bottom: 1px solid rgba(110, 117, 130, 0.2);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.card-tabs-only .card {
+    margin: 0;
+    border-top-left-radius: 0;
+}
+.card-tabs-only .tbs-pc-c{
+    height: calc(100% - 43px);
+    max-height: calc(100% - 43px);
+    padding-bottom:0px;
+    overflow-y:auto;
 }
 
 .page > .container .card-body .card .card-header .d-inline {
