@@ -336,9 +336,12 @@ aside + .page .navbar-toggler {
     position: fixed;
     background: #f0f0f0;
     z-index: 1000;
-    width: calc(100% - 240px);
+    width: 100%;
     bottom: 20px;
     padding: 0px;
+}
+aside + .page .footer {
+    width: calc(100% - 240px);
 }
 
 .footer .navbar {
