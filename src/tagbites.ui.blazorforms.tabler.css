@@ -221,6 +221,9 @@ aside.navbar {
 }
 .navbar .side-nav-link {
     color: rgba(255, 255, 255, .72);
+    display: flex;
+    flex-direction: row;
+    padding: 3px 0px
     /*padding-left: 10px*/
 }
 
