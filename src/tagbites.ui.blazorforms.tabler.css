@@ -1643,6 +1643,13 @@ table{background:white;}
 .navbar + .page .container .row > .col-lg-6:nth-child(2n){
     padding:8px 24px 8px 8px;
 }
+.navbar + .page .container .row > .w-100 + .col-lg-6{
+    padding:8px 8px 8px 24px!important;
+}
+.navbar + .page .container .row > .w-100 + .col-lg-6 + .col-lg-6{
+    padding:8px 24px 8px 8px!important;
+}
+
 .container > .row > .col-lg-12{
     padding:8px 24px 8px 24px;
 }
@@ -1650,12 +1657,8 @@ table{background:white;}
     margin-bottom:0px;
 }
 @media (max-width: 1023.98px) {
-    .container .row > .col-lg-6:nth-child(2n+1){
-        padding:8px 24px 8px 24px;
-    }
-    .container .row > .col-lg-6:nth-child(2n){
-        padding:8px 24px 8px 24px;
-
+    .container .row > .col-lg-6{
+        padding:8px 24px 8px 24px!important;
     }
 }
 .tbs-table-container {
