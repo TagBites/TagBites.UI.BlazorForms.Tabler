@@ -1264,6 +1264,15 @@ aside + .page > .container > .row {
     padding: 2px;
 }
 
+.tbs-ribbon a.checked{
+    text-decoration: none;
+    background-color: #dedede;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #000;
+}
+
 .tbs-ribbon a > div {
     margin-top: 33px;
 }
