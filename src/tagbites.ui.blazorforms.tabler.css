@@ -557,6 +557,11 @@ aside + .page .container .card-tabs > .card-body {
     overflow-y:auto;
 }
 
+.tbs-pc-c > .row > .col-12 > .row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
 .page > .container .card-body .card .card-header .d-inline {
     float: right;
 }
