@@ -1115,7 +1115,9 @@ aside + .page > .container > .row {
     -ms-user-select: none;
     user-select: none;
 }
-
+.tbs-ribbon:empty{
+    display:none;
+}
 .tbs-ribbon .tab-content {
     height: 100px;
     font-size: 12px;
