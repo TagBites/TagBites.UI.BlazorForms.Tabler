@@ -337,9 +337,12 @@ aside + .page .navbar-toggler {
     width: 100%;
     bottom: 20px;
     padding: 0px;
+    width: -moz-available;          /* Mozilla hack */
+    width: -webkit-fill-available;  /* Webkit hack */
+    width: fill-available;
 }
 aside + .page .footer {
-    width: calc(100% - 240px);
+    /*width: calc(100% - 240px);*/
 }
 
 .footer .navbar {
