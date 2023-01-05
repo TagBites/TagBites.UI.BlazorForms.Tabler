@@ -443,7 +443,6 @@ aside + .page .container.overflow-auto {
 
 aside + .page .container .card-tabs > .card-body {
     height: auto;
-    overflow: hidden;
 }
 
 .card {
