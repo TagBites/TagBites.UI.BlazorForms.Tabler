@@ -239,7 +239,7 @@ aside.navbar {
 }
 
 .navbar-collapse {
-    overflow-x: auto;
+    /*overflow-x: auto;*/
     padding-bottom: 10px;
 }
 
@@ -1522,9 +1522,9 @@ aside + .page button.close {
         flex: 0 0 100%
     }
     aside.navbar {
-        height: calc(100vh - 44px);
-        top: 44px!important;
-        overflow:hidden;
+        height: calc(100vh - 49px);
+        top: 49px!important;
+        overflow-x:auto;
     }
 
     .navbar-collapse {
