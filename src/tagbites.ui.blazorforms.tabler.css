@@ -63,6 +63,7 @@ body[data-leftbar-compact-mode=condensed] .side-nav .side-nav-item .side-nav-lin
 .page {
     background-color: #fff;
     padding-left:0px!important;
+    height: 100vh;
 }
 
 /* MAIN END */
