@@ -1572,7 +1572,7 @@ button[id^='CurrentPage.View.Content_ViewProcedureContentVM_Control'] {
 }
 
 
-/* Test override*/
+/* override*/
 .page{
     background-color: rgb(248,248,248);
 }
@@ -2098,4 +2098,23 @@ table table tbody{
 }
 .tbs-ws-it, .tbs-ws-sp{
     flex: 1 1 auto;
+}
+
+
+
+/* Nav table,button Override */
+aside.navbar button.btn{
+    background-color: #f7f7f7;
+    box-shadow:none;
+    color: #000;
+}
+aside.navbar .tbs-table-container{
+margin-left: -16px;
+}
+aside.navbar .tbs-table-container tr{
+color:#5a5a5a;
+}
+
+aside.navbar .tbs-table-container tr.table-active{
+color: black;
 }
