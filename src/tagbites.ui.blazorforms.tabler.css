@@ -1414,7 +1414,7 @@ span.tbs-readonly-editor {
 
 
 /*Other fix*/
-button[id^='CurrentPage.View.Content.Content_VIewProcedureContentItemVM'] {
+button[id^='CurrentPage.View.Content.Content_VIewProcedureItemVM'] {
     margin-left: calc(50% - 100px) !important;
     text-transform: uppercase;
     width: 220px;
@@ -1548,7 +1548,7 @@ aside + .page button.close {
     margin-bottom: 2vh;
 }
 /*Other fix*/
-button[id^='CurrentPage.View.Content_ViewProcedureContentVM_Control'] {
+button[id^='CurrentPage.View.Content.Content_VIewProcedureContentItemVM_Control'] {
     margin-left: calc(50% - 100px) !important;
     text-transform: uppercase;
     width: 220px;
