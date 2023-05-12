@@ -1414,7 +1414,7 @@ span.tbs-readonly-editor {
 
 
 /*Other fix*/
-button[id^='CurrentPage.View.Content.Content_VIewProcedureItemVM'] {
+button[id^='CurrentPage.View.Content.Content_VIewProcedureContentItemVM'] {
     margin-left: calc(50% - 100px) !important;
     text-transform: uppercase;
     width: 220px;
